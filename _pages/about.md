@@ -16,21 +16,21 @@ Welcome to my personal website!
 
 Education
 ------
-Lanzhou University  
+**Lanzhou University**  
 Atmospheric Science-Major 2020.09-2024.06  
 Business Administration-minor 2021.09-2023.06  
 
 Selected Awards
 ------
-Outstanding Winner(Higher than the First Prize) 2023.02  
+**Outstanding Winner(Higher than the First Prize)** 2023.02  
 China Undergraduate Mathematical Contest in Modelling (Gansu Province)  
-Third Prize, Twelfth BeiDou-Cup China Adolescents Science & Technology Invention Contest (Gansu Province Undergraduate Group) 2021.05  
-Third Class Scholarship, Lanzhou University 2021.12  
+**Third Prize**, Twelfth BeiDou-Cup China Adolescents Science & Technology Invention Contest (Gansu Province Undergraduate Group) 2021.05  
+**Third Class Scholarship**, Lanzhou University 2021.12  
 
 Selected Projects
 ------
-**Amplitude Changes of Rossby Waves in the Northern Hemisphere and Their Influencing Factors**  
-National College Students innovation and entrepreneurship training program 2023.03-present  
+**Amplitude Changes of Rossby Waves in the Northern Hemisphere and Their Influencing Factors 2023.03-present**  
+National College Students innovation and entrepreneurship training program  
 Participated in as the second-ranked member. The amplitude of Rossby waves has an important impact on the occurrence of extreme weather. In this project, we use Fourier decomposition and the core isertel to describe the amplitude and investigate the impact of climate change and greenhouse effects on the amplitude. The project is currently in the middle stage, and in the early stages, I was responsible for using ERA5 data, using Fourier decomposition to calculate the amplitude of Rossby waves and drawing graphs.  
 **Air Pollution Simulation and prediction in Lanzhou based on Machine Learning 2022.03-2023.03**  
 Lanzhou University innovation and entrepreneurship training program  
