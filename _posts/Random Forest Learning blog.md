@@ -1,7 +1,7 @@
 ---
 title: 'Random Forest Learning blog'
 date: 2023-07-02
-permalink: /posts/Random Forest Learning blog
+permalink: /posts/posts/2012/08/blog-post-1/
 tags:
   - ML
 ---
