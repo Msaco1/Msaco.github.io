@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![欢迎背景图](https://raw.githubusercontent.com/Msaco1/Msaco.github.io/master/images/欢迎背景图.png)
+![欢迎背景图](https://raw.githubusercontent.com/Msaco1/Msaco1.github.io/master/images/欢迎背景图.png)
 欢迎查看我的个人主页!
 
 Welcome to my personal website!
