@@ -1,5 +1,5 @@
 ---
-title: "Intern: Sanxia Airport (on board)"
+title: "Intern: Sanxia Airport"
 collection: Intern
 type: "跟班实习"
 permalink: /teaching/2014-spring-teaching-1
