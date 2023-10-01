@@ -6,19 +6,21 @@ tags:
   - climate
   - tools
 ---
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 This is a Learning record of Equivalent latitude.How to calculate it in python/NCL? What are the application scenarios?
 
 ### 基础概念理解Concept
-======
 Equivalent latitude(等效纬度) is closely link to PV(Potential Vorticity). Usually on isentropic surface(等熵面), pv decreases from the pole to equator in north hemisphere so we can use "equivalent latitude" to mark this trend.
 The defination of Equivalent latitude is very simple, most people define it as:
-```math
-\phi_q=\sin ^{-1}\left(\frac{A}{2 \pi a^2}-1\right)
-```
-Where `$A$` is the area enclosed by specific pv isolines(such as pv=1.0 PVU,then we calculate the area where pv is larger than 1.0 PVU), `$a$` is the radius of the earth.So the problem becomes how to calculate the area.
-In an article[Equivalent Latitude Computation Using Regions of Interest (ROI)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0072970),they make a comparison between two methon when calculating the area.One is to PIECEWISE-CONSTANT,which is widely used,calculating it by sum grids area.The other is ROI.They also provide codes of two methods but unfortunately they are not written in Python.
-### An python example code
-##### using Metpy 1.20
+{% raw %}
+$$
+\phi=\arcsin \left(1-\frac{A}{2 \pi a^2}\right)
+$$
+{% endraw %}
+
+Where `A` is the area enclosed by specific pv isolines(such as pv=1.0 PVU,then we calculate the area where pv is larger than 1.0 PVU), `a` is the radius of the earth.So the problem becomes how to calculate the area.
+In an article[Equivalent Latitude Computation Using Regions of Interest (ROI)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0072970),they make a comparison between two methods when calculating the area.One is PIECEWISE-CONSTANT,which is widely used,calculates it by sum grids area.The other is ROI.They also provide codes of two methods but unfortunately they are not written in Python.
+### An python example code(PIECEWISE-CONSTANT)(North Hemisphere)
 ```python
 import numpy as np
 import pandas as pd
@@ -52,12 +54,12 @@ def calceqlat(pv, lon, lat, value):
             latarea[i] = hemarea * abs(np.sin(phi1) - np.sin(phi2)) / float(nlon)
 
     totalarea = np.sum(latarea) * nlon
-    # # Order the data points by increasing value
+    # Order the data points by increasing value
     npoints = int(nlon) * int(nlat)
     pv1d = np.zeros(npoints, dtype=float)   # Data placed in 1-D array
     a1d = np.zeros(npoints, dtype=float)  # Area placed in 1-D array
     el1d = np.zeros(npoints, dtype=float) # Elat placed in 1-D array
-    index = int(0)
+    index = 0
     for ilon in range(0,nlon):
         for ilat in range(0,nlat):
             pv1d[index] = pv[ilat,ilon]
@@ -73,10 +75,11 @@ def calceqlat(pv, lon, lat, value):
 As adjectives the difference between baroclinic and barotropicis that baroclinic is describing an atmospheric system in which the isobars are at an angle to the isopycnals or isotherms while barotropic is in which the pressure of the atmosphere is dependent upon its density only.
 [difference](https://wikidiff.com/baroclinic/barotropic)
 
-### 参考链接
-======
-[transfer hPa to K,isentropic_interpolation](https://unidata.github.io/MetPy/latest/api/generated/metpy.calc.isentropic_interpolation.html)
-[Calculate equivalent latitude](https://www.bodekerscientific.com/other/useful-papers-reports-tools/calculate-equivalent-latitude)  
-[NCL:equivalent latitudes](https://www.ncl.ucar.edu/Applications/equiv_lat.shtml#:~:text=NCL)
-[MetPy:PV_baroclinic](https://unidata.github.io/MetPy/latest/api/generated/metpy.calc.potential_vorticity_baroclinic.html)
-[MetPy:PV_barotropic](https://unidata.github.io/MetPy/latest/api/generated/metpy.calc.potential_vorticity_barotropic.html)
+### 延展阅读
+[transfer hPa to K,isentropic_interpolation](https://unidata.github.io/MetPy/latest/api/generated/metpy.calc.isentropic_interpolation.html)<br>
+[Calculate equivalent latitude](https://www.bodekerscientific.com/other/useful-papers-reports-tools/calculate-equivalent-latitude)<br>
+[NCL:equivalent latitudes](https://www.ncl.ucar.edu/Applications/equiv_lat.shtml#:~:text=NCL)<br>
+[MetPy:PV_baroclinic](https://unidata.github.io/MetPy/latest/api/generated/metpy.calc.potential_vorticity_baroclinic.html)<br>
+[MetPy:PV_barotropic](https://unidata.github.io/MetPy/latest/api/generated/metpy.calc.potential_vorticity_barotropic.html)<br>
+[“等熵思维”到“等熵位涡思维”回顾与讨论, 周小刚、王秀明等, 2014](http://qxqk.nmc.cn/html/2014/5/20140501.html)<br>
+[位温、等熵位涡与锋和对流层顶的分析方法, 陶祖钰等, 2012](http://qxqk.nmc.cn/html/2012/1/20120102.html)<br>
