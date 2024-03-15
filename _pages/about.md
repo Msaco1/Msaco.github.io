@@ -1,8 +1,8 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
-author_profile: true
+title: "Wentian Li（李文添）"
+excerpt: "About me--Wentian Li"
+author_profile: False
 redirect_from: 
   - /about/
   - /about.html
@@ -12,13 +12,14 @@ redirect_from:
 
 Welcome to my personal website!
 
-网站正在持续搭建中……
 
 Education
 ------ 
+**Nanjing University-University of Helsinki**  
+Atmospheric Science   2024.09-  
 **Lanzhou University**  
-Atmospheric Science-Major 2020.09-2024.06  
-Business Administration-minor 2021.09-2023.06  
+Atmospheric Science-Major undergraduate   2020.09-2024.06  
+Business Administration-Minor   2021.09-2023.06  
 
 Selected Awards
 ------
@@ -29,7 +30,7 @@ China Undergraduate Mathematical Contest in Modelling (Gansu Province)
 
 Selected Projects
 ------
-**Amplitude Changes of Rossby Waves in the Northern Hemisphere and Their Influencing Factors 2023.03-present**  
+**Amplitude Changes of Rossby Waves in the Northern Hemisphere and Their Influencing Factors 2023.03-2024.03**  
 National College Students innovation and entrepreneurship training program. Participated in as the second-ranked member.  
 **Air Pollution Simulation and prediction in Lanzhou based on Machine Learning 2022.03-2023.03**  
 Lanzhou University innovation and entrepreneurship training program. Head.  
