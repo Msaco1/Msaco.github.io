@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Wentian Li(李文添)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,28 +12,34 @@ redirect_from:
 
 Welcome to my personal website!
 
-网站正在持续搭建中……
-
 Education
 ------ 
-**Lanzhou University**  
-Atmospheric Science-Major 2020.09-2024.06  
-Business Administration-minor 2021.09-2023.06  
+<ul>
+  <li><strong>Nanjing University-University of Helsinki</strong></li>
+  Atmospheric Science 2024.09-<br><br>
+  <li><strong>Lanzhou University</strong></li>
+  Atmospheric Science-Major Undergraduate 2020.09-2024.06<br>
+  Business Administration-Minor 2021.09-2023.06<br>
+</ul>
 
 Selected Awards
 ------
-**Outstanding Winner(Higher than the First Prize)** 2023.02  
-China Undergraduate Mathematical Contest in Modelling (Gansu Province)  
-**Third Prize**, Twelfth BeiDou-Cup China Adolescents Science & Technology Invention Contest (Gansu Province Undergraduate Group) 2021.05. Head.    
-**Third Class Scholarship**, Lanzhou University 2021.12  
+<ul>
+<li><strong>Outstanding Winner(Higher than the First Prize)</strong> 2023.02</li>
+China Undergraduate Mathematical Contest in Modelling (Gansu Province)<br><br>
+<li><strong>Third Prize</strong>, Twelfth BeiDou-Cup China Adolescents Science & Technology Invention Contest (Gansu Province Undergraduate Group) 2021.05. Head.</li><br>
+<li><strong>Third Class Scholarship</strong>, Lanzhou University 2021.12</li>
+</ul>
 
 Selected Projects
 ------
-**Amplitude Changes of Rossby Waves in the Northern Hemisphere and Their Influencing Factors 2023.03-present**  
-National College Students innovation and entrepreneurship training program. Participated in as the second-ranked member.  
-**Air Pollution Simulation and prediction in Lanzhou based on Machine Learning 2022.03-2023.03**  
-Lanzhou University innovation and entrepreneurship training program. Head.  
-**Quality Control and Evaluation of Raw Aircraft Observation Data 2021.03-2022.03**  
-Lanzhou University innovation and entrepreneurship training program. Participated in.  
-**The Carbon Emissions Accounting Report for Yuzhong Campus 2023.02**  
+<ul>
+<li><strong>Amplitude Changes of Rossby Waves in the Northern Hemisphere and Their Influencing Factors</strong> 2023.03-2024.03</li>
+National College Students innovation and entrepreneurship training program. Participated in as the second-ranked member.<br><br>
+<li><strong>Air Pollution Simulation and prediction in Lanzhou based on Machine Learning</strong> 2022.03-2023.03</li>
+Lanzhou University innovation and entrepreneurship training program. Head.<br><br>
+<li><strong>Quality Control and Evaluation of Raw Aircraft Observation Data</strong> 2021.03-2022.03</li>
+Lanzhou University innovation and entrepreneurship training program. Participated in.<br><br>
+<li><strong>The Carbon Emissions Accounting Report for Yuzhong Campus</strong> 2023.02</li>
 Coursework. 
+</ul>

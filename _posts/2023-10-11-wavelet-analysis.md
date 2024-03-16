@@ -11,6 +11,6 @@ tags:
 waiting for an update.
 
 ### 延伸阅读
-[形象易懂讲解算法I——小波变换](https://zhuanlan.zhihu.com/p/22450818)
-[THE ENGINEER'S ULTIMATE GUIDE TOWAVELET ANALYSIS](https://cseweb.ucsd.edu/~baden/Doc/wavelets/polikar_wavelets.pdf)
+[形象易懂讲解算法I——小波变换](https://zhuanlan.zhihu.com/p/22450818)<br>
+[THE ENGINEER'S ULTIMATE GUIDE TOWAVELET ANALYSIS](https://cseweb.ucsd.edu/~baden/Doc/wavelets/polikar_wavelets.pdf)<br>
 [wavelet transform](https://inst.eecs.berkeley.edu/~ee225b/sp14/lectures/wavelets-g&w.pdf)

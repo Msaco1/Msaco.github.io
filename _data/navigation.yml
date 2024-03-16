@@ -3,8 +3,8 @@ main:
   - title: "Publications 发表"
     url: /publications/
 
-  # - title: "项目"
-  #   url: /talks/    
+  - title: "Useful Links有趣的链接"
+    url: /Links/    
 
   - title: "Intern and working experience 实习和工作经验"
     url: /teaching/    
