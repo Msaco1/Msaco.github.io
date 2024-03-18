@@ -10,7 +10,8 @@ redirect_from:
 ![欢迎背景图](https://raw.githubusercontent.com/Msaco1/Msaco1.github.io/master/images/欢迎背景图.png)
 欢迎查看我的个人主页!
 
-Welcome to my personal website!
+Welcome to my personal website!<br>
+<strong>email:wentiamli@163.com</strong>
 
 Education
 ------ 
