@@ -20,14 +20,14 @@ Education
   Atmospheric Science 2024.09-<br><br>
   <li><strong>Lanzhou University</strong></li>
   Atmospheric Science-Major Undergraduate 2020.09-2024.06<br>
-  Business Administration-Minor 2021.09-2023.06<br>
+  Business Administration-Minor 2021.09-2024.06<br>
 </ul>
 
 Selected Awards
 ------
 <ul>
-<li><strong>Outstanding Winner(Higher than the First Prize)</strong> 2023.02</li>
-China Undergraduate Mathematical Contest in Modelling (Gansu Province)<br><br>
+<li><strong>Outstanding Winner</strong> 2023.02</li>
+Contemporary Undergraduate Mathematical Contest in Modeling (Gansu Province)<br><br>
 <li><strong>Third Prize</strong>, Twelfth BeiDou-Cup China Adolescents Science & Technology Invention Contest (Gansu Province Undergraduate Group) 2021.05. Head.</li><br>
 <li><strong>Third Class Scholarship</strong>, Lanzhou University 2021.12</li>
 </ul>
